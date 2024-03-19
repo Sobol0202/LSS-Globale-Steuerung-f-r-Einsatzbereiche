@@ -58,7 +58,8 @@
         alert(activated ? "Einsatzbereiche wurden erfolgreich aktiviert!" : "Einsatzbereiche wurden erfolgreich deaktiviert!");
         updateTriggerText(!activated);
     };
-
+    
+    //Bärenkatapult
     const updateTriggerText = (activated) => {
         const triggerA = document.getElementById('buildingSettingsTrigger');
         triggerA.textContent = activated ? 'Einsatzbereiche einschalten' : 'Einsatzbereiche abschalten';
